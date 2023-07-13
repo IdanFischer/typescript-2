@@ -5,10 +5,10 @@
  */
 
 //implicit type
-let fName = 'camila'
+let fName = 'Idan'
 
 //explicit type
-let lName: string | number | boolean | undefined = 'sandoval'
+let lName: string | number | boolean | undefined = 'Fischer'
 lName = 123
 
 
