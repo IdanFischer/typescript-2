@@ -11,6 +11,26 @@ interface IManager extends IEmployee {
   salaryTier: number
 }
 
+const employees: IEmployee[] = [
+  {
+    id: 1,
+    fName: "Idan",
+    lName: "Fischer",
+    age: 19,
+    cool: true,
+    apps: { appName: "Camlann Games", production: true }
+  },
+  {
+    id: 2,
+    fName: "Placeholder",
+    lName: "Man",
+
+    age: 25,
+    cool: false,
+    apps: { appName: "Camlann Games", production: true },
+  }
+]
+
 let employee1: IEmployee = {
   id: 1,
   fName: "Idan",
